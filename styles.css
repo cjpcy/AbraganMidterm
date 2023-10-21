@@ -1,0 +1,106 @@
+
+body {
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    width: 50%;
+
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    max-width: auto;
+    margin: 200px;
+    padding: 200px;
+  
+    
+    
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF; 
+}
+
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select,
+form input[type="date"] {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+}
+
+form input[type="radio"] {
+    margin: 0 10px 0 0;
+}
+
+form input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+table th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+button {
+    background-color: #259246;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+button:hover {
+    background-color: #0056b3; 
+}

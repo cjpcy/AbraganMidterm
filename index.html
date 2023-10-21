@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>School Enrollment System</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+</head>
+<body>
+    <h1>School Enrollment System</h1>
+    <form id="enrollment-form">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required><br><br>
+
+        <label for="middle-name">Middle Name:</label>
+        <input type="text" id="middle-name" name="middle-name"><br><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label><br><br>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" required><br><br>
+
+        <label for="course">Course:</label>
+        <select id="course" name="course" required>
+            <option value="BSIT">BSIT</option>
+            <option value="BSBA">BSBA</option>
+            <option value="BEED">BEED</option>
+            
+            
+        </select><br><br>
+
+        <label for="school-year">School Year:</label>
+        <input type="text" id="school-year" name="school-year" required><br><br>
+
+        <input type="submit" value="Submit">
+        
+    </form>
+    
+    <table id="enrollee-table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Middle Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Birthday</th>
+                <th>Course</th>
+                <th>School Year</th>
+                <td>
+                    <button class="edit-button">Edit</button>
+                    <button class="delete-button">Delete</button>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+           
+        </tbody>
+    </table>
+
+    <script src="script.js"></script> 
+</body>
+</html>
